@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">港币$ 转换器测试</string>
+    <string name="type_HKD">港币($):</string>
+    <string name="type_RMB">人民币(元):</string>
+    <string name="type_USD">美元($):</string>
+    <string name="type_GBP">英镑(£):</string>
+    <string name="type_EUR">欧元(€):</string>
+    <string name="type_JPY">日元(￥):</string>
+    <string name="button_con">转换</string>
+    <string name="button_Cle">清除</string>
+    <string name="lan_Ch">中文</string>
+    <string name="lan_En">英文</string>
+    <string name="exit">退出</string>
+    <string name="about">关于应用</string>
+    <string name="But_update">更新</string>
+    <string name="aboutApp">欢迎使用此app.它可以帮助您将港币转换为对应的人命币,美元,英镑,欧元以及日元.
+    </string>
+</resources>

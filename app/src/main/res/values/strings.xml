@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">HKD$ ConverterTest1</string>
+    <string name="type_HKD">HKD($):</string>
+    <string name="type_RMB">RMB(元):</string>
+    <string name="type_USD">USD($):</string>
+    <string name="type_GBP">GBP(£):</string>
+    <string name="type_EUR">EUR(€):</string>
+    <string name="type_JPY">JPY(￥):</string>
+    <string name="button_con">Convert</string>
+    <string name="button_Cle">Clear</string>
+    <string name="lan_Ch">Chinese</string>
+    <string name="lan_En">English</string>
+    <string name="exit">Exit</string>
+    <string name="about">About app</string>
+    <string name="aboutApp">Welcome to HKD$ Converter!It alows you to convert hk dollars into RMB,
+                US dollars, GBP,EUR and JPY</string>
+    <string name="But_update">Update</string>
+</resources>

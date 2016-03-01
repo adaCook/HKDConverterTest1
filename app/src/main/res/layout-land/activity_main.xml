@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/activity_horizontal_margin"
+    android:id="@+id/rlLand"
+    tools:context="com.example.laicooper.hkdconvertertest1.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/type_HKD"
+        android:text="@string/type_HKD"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:ems="10"
+        android:id="@+id/HKDCurrency"
+        android:layout_toRightOf="@id/type_HKD"
+        android:layout_alignBaseline="@id/type_HKD"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/type_RMB"
+        android:text="@string/type_RMB"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/type_HKD"
+        android:layout_marginTop="10dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:ems="10"
+        android:id="@+id/RMBCurrency"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@id/type_RMB"
+        android:layout_alignBaseline="@id/type_RMB"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/type_USD"
+        android:text="@string/type_USD"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/type_RMB"
+        android:layout_marginTop="10dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:ems="10"
+        android:id="@+id/USDCurrency"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@id/type_USD"
+        android:layout_alignBaseline="@id/type_USD"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/type_GBP"
+        android:text="@string/type_GBP"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/type_USD"
+        android:layout_marginTop="10dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:ems="10"
+        android:id="@+id/GBPCurrency"
+        android:layout_toRightOf="@id/type_GBP"
+        android:layout_alignBaseline="@id/type_GBP"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/type_EUR"
+        android:text="@string/type_EUR"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/type_GBP"
+        android:layout_marginTop="10dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:ems="10"
+        android:id="@+id/EURCurrency"
+        android:layout_toRightOf="@id/type_EUR"
+        android:layout_alignBaseline="@id/type_EUR"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/type_JPY"
+        android:text="@string/type_JPY"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/type_EUR"
+        android:layout_marginTop="10dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:ems="10"
+        android:id="@+id/JPYCurrency"
+        android:layout_toRightOf="@id/type_JPY"
+        android:layout_alignBaseline="@id/type_JPY"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/button_con"
+        android:textAllCaps="false"
+        android:id="@+id/buttonCon"
+        android:layout_marginTop="5dp"
+        android:layout_below="@id/type_JPY"
+        android:layout_alignParentLeft="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/button_Cle"
+        android:id="@+id/button_cle"
+        android:layout_marginLeft="5dp"
+        android:layout_toRightOf="@id/buttonCon"
+        android:layout_alignBottom="@id/buttonCon"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/update"
+        android:text="@string/But_update"
+        android:layout_marginTop="5dp"
+        android:layout_below="@id/buttonCon"
+        android:onClick="updateData"/>
+</RelativeLayout>
